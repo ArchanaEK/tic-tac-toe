@@ -1,0 +1,40 @@
+#heading{
+    margin: auto;
+    width: 30%;
+    border: 3px solid green;
+    text-align: center;
+    margin-top: 2%;
+  }
+  .btn{
+    margin: 4px;
+    width: 80px;
+    height:80px;
+    border: 2px solid #070707;
+    border-radius: 20px ;
+    background-color: lightgreen;
+    font-size: xx-large;
+    text-align: center;
+    
+  }
+
+  #container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  #reset{
+    margin: 4px;
+    width: 150px;
+    height:50px;
+    border: 2px solid #070707;
+    border-radius: 10px ;
+    background-color: rgb(238, 230, 144);
+    font-size: xx-large;
+    text-align: center;
+    padding: auto;
+    margin-left: 46%;
+    margin-top: 2%;
+
+  }
