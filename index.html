@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body >
 
-    <h1 id="heading">TIC TAC TOE</h1> 
-   <div id="container">
+<body>
+
+    <h1 id="heading">TIC TAC TOE</h1>
+    <div id="outerBox">
+        <script src="index.js"></script>
+        <input class="button" id="button1"></input>
+        <input class="button" id="button2"></input>
+        <input class="button" id="button3"></input>
+        <input class="button" id="button4"></input>
+        <input class="button" id="button5"></input>
+        <input class="button" id="button6"></input>
+        <input class="button" id="button7"></input>
+        <input class="button" id="button8"></input>
+        <input class="button" id="button9"></input>
+    </div>
+    <button id="result" onclick="playAndGetResult()">result</button>
+    <div id="reset" onclick="resetGame()">Reset</div>
+    <div class="popup" id="popup">
+        <img src="pupupCheckMark.jpg" width="200" height="120">
+
+        <h2>Thank You</h2>
+        <p>
+            <p id="player"></p> won the game
+        </p>
+        <button type="button" onclick="resetGame()">Wanna Play Again?</button>
+    </div>
+
     <script src="index.js"></script>
-    <input class="btn" id="btn1"></input>
-    <input class="btn" id="btn2"></input>
-    <input class="btn" id="btn3"></input> 
-    <input class="btn" id="btn4"></input>
-    <input class="btn" id="btn5"></input>
-    <input class="btn" id="btn6"></input>
-    <input class="btn" id="btn7"></input>
-    <input class="btn" id="btn8"></input>
-    <input class="btn" id="btn9"></input>
-</div>
-
-<div id="reset">Reset</div>
 </body>
+
 </html>

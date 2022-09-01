@@ -5,7 +5,7 @@
     text-align: center;
     margin-top: 2%;
   }
-  .btn{
+  .button{
     margin: 4px;
     width: 80px;
     height:80px;
@@ -17,7 +17,8 @@
     
   }
 
-  #container{
+
+  #outerBox{
     display: grid;
     grid-template-columns: 100px 100px 100px;
     align-items: center;
@@ -30,7 +31,7 @@
     height:50px;
     border: 2px solid #070707;
     border-radius: 10px ;
-    background-color: rgb(238, 230, 144);
+    background-color: rgb(182, 144, 238);
     font-size: xx-large;
     text-align: center;
     padding: auto;
@@ -38,3 +39,85 @@
     margin-top: 2%;
 
   }
+
+  #result{
+    margin: 4px;
+    width: 150px;
+    height:30px;
+    border: 0.5px solid #070707;
+    border-radius: 10px ;
+    background-color: rgb(23, 231, 19);
+    font-size: large;
+    text-align: center;
+    padding: auto;
+    margin-left: 49%;
+
+  }
+
+  .container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #3c5077; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+   padding: 10px 60px; 
+   background: rgb(9, 66, 11);
+   border:0;
+   outline :none; 
+   font-size: 22px;
+   font-weight: 500;
+   border-radius: 30px;
+}
+
+.popup{
+    width: 400px;
+    background: rgb(196, 192, 192);
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%) scale(1);
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(red, green, blue, alpha) ;
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(red, green, blue, alpha) ;
+
+}
